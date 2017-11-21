@@ -48,7 +48,7 @@ export default class ToDo extends React.Component {
         elements = title.map( item => <Cardie title={ item } /> );
         The result is an array of four Card components. */
         return (
-            <div>
+            <div className="mb-5">
                 <div className="container maxWidth mt-5">
 
                     <Form className="bg-info text-white">
@@ -88,6 +88,9 @@ export default class ToDo extends React.Component {
                     <h1 className="display-3 bg-info text-white py-2">Todo list:</h1>
                     {elements}
                 </div>
+                <br />
+                <br />
+                <br />
             </div>
         );
     };
