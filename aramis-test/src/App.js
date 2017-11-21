@@ -5,6 +5,7 @@ import {PropsRoute} from 'react-router-with-props';
 
 import NavBar from './NavBar'
 import Body from './Body'
+import ToDo from './ToDo'
 // import Footer from './Footer'
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <Router>
           <div>
             <PropsRoute exact path="/" component={Body}/>
+            <PropsRoute exact path="/todo" component={ToDo}/>
           </div>
         </Router>
       </div>

@@ -4,37 +4,191 @@ import PropTypes from 'prop-types';
 const Footer = (props) => {
 
     return (
-
-        <footer className="navbar-fixed-bottom">
-            <div className="container">
-                <div className="row">
-
-                    <div className="col-md-4 col-sm-6 col-xs-12">
-                        <span className="logo">cre<span className="createorlog4">ART</span>ivity</span>
+        <div>
+            <div id="wrap">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Footer dropup</h1>
                     </div>
-
-                    <div className="col-md-4 col-sm-6 col-xs-12">
-                        <ul className="adress">
-                            <span>Contact</span>
-                            <li>
-                                <i className="fa fa-github" aria-hidden="true"></i>
-                                <a href="https://github.com/SKornahrens/creARTivity">GitHub</a>
-                            </li>
-                            <li>
-                                <i className="fa fa-map-marker" aria-hidden="true"></i>
-                                <a href="#">Adress</a>
-                            </li>
-                            <li>
-                                <i className="fa fa-envelope" aria-hidden="true"></i>
-                                <a href="#">Email</a>
-                            </li>
-                        </ul>
-                    </div>
-
+                    <p>Just an drop-up for use in footer or somewhere else.</p>
                 </div>
             </div>
-        </footer>
 
+            <div id="footer">
+                <div class="container">
+                    <p class="text-muted credit">
+                        <div class="btn-group">
+                            <button
+                                type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                                Dropup
+                                <span class="caret caret-up"></span>
+                            </button>
+                            <ul class="dropdown-menu drop-up" role="menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button
+                                type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                                Dropup
+                                <span class="caret caret-up"></span>
+                            </button>
+                            <ul class="dropdown-menu drop-up" role="menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button
+                                type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                                Dropup
+                                <span class="caret caret-up"></span>
+                            </button>
+                            <ul class="dropdown-menu drop-up" role="menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button
+                                type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                                Dropup
+                                <span class="caret caret-up"></span>
+                            </button>
+                            <ul class="dropdown-menu drop-up" role="menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button
+                                type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                                Dropup
+                                <span class="caret caret-up"></span>
+                            </button>
+                            <ul class="dropdown-menu drop-up" role="menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button
+                                type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                                Dropup
+                                <span class="caret caret-up"></span>
+                            </button>
+                            <ul class="dropdown-menu drop-up" role="menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button
+                                type="button"
+                                class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                                Dropup
+                                <span class="caret caret-up"></span>
+                            </button>
+                            <ul class="dropdown-menu drop-up" role="menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
     );
 };
 

@@ -151,6 +151,7 @@ i {
 body {
   font-family: Roboto;
   height: 100vh;
+  line-height: inherit;
 }
 
 .click-mask {
@@ -248,34 +249,9 @@ footer {
 
 .createorlog {
   font-family: 'Lobster', cursive;
-  color: rgb(0, 217, 255)!important;
+  color: rgb(26, 151, 170)!important;
   font-size: 14pt;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-.createorlog1 {
-  font-family: 'Lobster', cursive;
-  color: red;
-  font-size: 18pt;
-}
-
-.createorlog2 {
-  font-family: 'Lobster', cursive;
-  color: rgb(255, 255, 255);
-  font-size: 10pt;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-
-.createorlog3 {
-  font-family: 'Lobster', cursive;
-  color: red;
-  font-size: 14pt;
-}
-
-.createorlog4 {
-  font-family: 'Lobster', cursive;
-  color: red;
-  font-size: 20pt;
+  text-shadow: -.5px -.5px 0 rgb(252, 252, 252), 1px -.5px 0 rgb(255, 255, 255), -.5px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }
 
 .frontlog {
@@ -361,4 +337,15 @@ div.card.flipped {
 
 .btn-round {
   border-radius: 17px;
+}
+
+.container {
+  max-width: 720px;
+}
+.smallWidth{
+  max-width: 120px;
+}
+.whiteBG{
+  background-color: rgb(223, 255, 200)!important;
+  color:black
 }

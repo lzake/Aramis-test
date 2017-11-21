@@ -6,11 +6,9 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    Button,
-    Modal,
-    ModalBody
+    Button
 } from 'reactstrap';
+import Sign from './Sign'
 
 export default class NavBar extends React.Component {
 
@@ -75,149 +73,14 @@ export default class NavBar extends React.Component {
                         <Nav className="ml-auto float-right" navbar>
 
                             <NavItem className="pull-right">
-                                <Button
-                                    className="btn-sm btn-light btn-outline-secondary mr-2 mt-2 p-3 btn-round h2 whiteoutline"
-                                    onClick={this.toggleModal}>
-                                    Login / Sign-up
-                                    <Modal
-                                        isOpen={this.state.modal}
-                                        toggle={this.toggleModal}
-                                        className={this.props.className}>
-
-                                        <ModalBody>
-                                            <div className="container">
-                                                <div className="row">
-                                                    <div className="col">
-                                                        <div className="flip">
-                                                            <div className={this.state.cardStyle}>
-                                                                <div className="face front">
-                                                                    <div className="panel panel-default">
-                                                                        <form className="form-horizontal">
-
-                                                                            <br/>
-
-                                                                            <img
-                                                                                src={require('./images/logo.png')}
-                                                                                className="img-responsive desktop-only"
-                                                                                alt=""/>
-                                                                            <img
-                                                                                src={require('./images/smallLogo.png')}
-                                                                                className="img-responsive mobile-only smallLogo"
-                                                                                alt=""/>
-                                                                            <br/>
-                                                                            <br/>
-
-                                                                            <input
-                                                                                name="userName"
-                                                                                className="form-control"
-                                                                                placeholder="Email"
-                                                                                type="email"
-                                                                                minlength="6"
-                                                                                maxLength="20"
-                                                                                required/>
-                                                                            <input
-                                                                                name="password"
-                                                                                className="form-control"
-                                                                                placeholder="Password"
-                                                                                type="password"
-                                                                                minlength="6"
-                                                                                maxLength="20"
-                                                                                required/>
-                                                                            <button className="btn btn-primary btn-block" type="submit">LOG IN</button>
-                                                                            <br/><br/><br/><br/><br/><br/><br/>
-                                                                            <p className="text-center">
-                                                                                <a
-                                                                                    className="fliper-btn createorlog"
-                                                                                    onClick={this
-                                                                                    .flipper1
-                                                                                    .bind(this)}>Create new account?</a>
-                                                                                    <br /><br /><br /><br />
-                                                                            </p>
-                                                                        </form>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="face back">
-                                                                    <div className="panel panel-default">
-                                                                        <form className="form-horizontal" data-toggle="validator" role="form">
-                                                                            <br/>
-                                                                            <img
-                                                                                src={require('./images/logo.png')}
-                                                                                className="img-responsive desktop-only"
-                                                                                alt=""/>
-                                                                            <img
-                                                                                src={require('./images/smallLogo.png')}
-                                                                                className="img-responsive mobile-only smallLogo"
-                                                                                alt=""/>
-                                                                            <br/>
-                                                                            <label>Basic Information</label>
-                                                                            <input
-                                                                                name="userName"
-                                                                                className="form-control"
-                                                                                placeholder="Username"
-                                                                                minlength="6"
-                                                                                maxLength="20"
-                                                                                type="text"
-                                                                                required/>
-                                                                            <input
-                                                                                className="form-control"
-                                                                                placeholder="Email"
-                                                                                type="email"
-                                                                                minlength="6"
-                                                                                maxLength="20"
-                                                                                required/>
-                                                                            <input
-                                                                                name="email"
-                                                                                className="form-control"
-                                                                                placeholder="Confirm Email"
-                                                                                type="email"
-                                                                                minlength="6"
-                                                                                maxLength="20"
-                                                                                required/>
-                                                                            <label>Private Information</label>
-                                                                            <input
-                                                                                type="password"
-                                                                                className="form-control"
-                                                                                placeholder="Password (min 6 characters)"
-                                                                                minlength="6"
-                                                                                maxLength="20"
-                                                                                id="inputPassword"
-                                                                                required/>
-                                                                            <input
-                                                                                type="password"
-                                                                                className="form-control"
-                                                                                minlength="6"
-                                                                                maxLength="20"
-                                                                                placeholder="Confirm Password"
-                                                                                data-match="#inputPassword"
-                                                                                data-match-error="Whoops, these don't match"
-                                                                                required/>
-                                                                            <button className="btn btn-primary btn-block" type="submit">SIGN UP</button><br/>
-                                                                            <p className="text-center">
-                                                                                <a
-                                                                                    className="fliper-btn createorlog"
-                                                                                    onClick={this
-                                                                                    .flipper2
-                                                                                    .bind(this)}>Already have an account?</a>
-                                                                            </p>
-                                                                        </form>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </ModalBody>
-
-                                    </Modal>
-
-                                </Button>
+                                <Sign/>
                             </NavItem>
 
                             <NavItem className="pull-right">
                                 <Button
-                                    className="btn-sm btn-light btn-outline-secondary mr-2 mt-2 p-3 btn-round"
-                                    href="/components/">
+                                    className="btn mr-2 mt-2 p-3 btn-round h2 whiteoutline"
+                                    color="info"
+                                    href="/todo/">
                                     Manage 'To do' list
                                 </Button>
                             </NavItem>
