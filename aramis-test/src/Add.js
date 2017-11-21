@@ -11,8 +11,8 @@ import {
 export default class Add extends React.Component {
     render() {
         return (
-            <div>
-                <Form className="container maxWidth mt-5 bg-info text-white">
+            <div className="container maxWidth mt-5">
+                <Form className="bg-info text-white">
                     <FormGroup row className="maxWidth mt-5 bg-info text-white">
                         <Label for="newtitle" sm={1}>Title</Label>
                         <Col sm={10}>

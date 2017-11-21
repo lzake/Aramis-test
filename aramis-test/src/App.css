@@ -349,3 +349,12 @@ div.card.flipped {
   background-color: rgb(223, 255, 200)!important;
   color:black
 }
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
