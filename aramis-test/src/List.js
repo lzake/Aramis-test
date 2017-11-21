@@ -53,7 +53,7 @@ export default class ToDo extends React.Component {
 
                     <Form className="bg-info text-white">
                     <h1 className="display-3 text-white">Add a task:</h1>
-                        <FormGroup row className="maxWidth mt-5 bg-info text-white">
+                        <FormGroup row className="maxWidth mt-3 bg-info text-white">
                             <Label for="newtitle" sm={2} className="h4">Title</Label>
                             <Col sm={10}>
                                 <Input
@@ -71,7 +71,8 @@ export default class ToDo extends React.Component {
                                     type="textarea"
                                     name="newdescription"
                                     id="newdescription"
-                                    placeholder="Tell me all about it 🙄"/>
+                                    placeholder="Tell me all about it 🙄"
+                                    className="pb-5"/>
                             </Col>
                         </FormGroup>
 
@@ -84,7 +85,7 @@ export default class ToDo extends React.Component {
                 </div>
 
                 <div className="container maxWidth mt-5">
-                    <h1 className="display-3 bg-info text-white">Todo list:</h1>
+                    <h1 className="display-3 bg-info text-white py-2">Todo list:</h1>
                     {elements}
                 </div>
             </div>
